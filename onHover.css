@@ -1,0 +1,86 @@
+.even{
+    color: white;
+    text-align: center;
+background-color: orange;
+height: 100px;
+width: 100px;
+display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  transition: 2s;
+}
+.even:hover{
+    transform: rotateX(360deg) scale(1.5);
+}
+
+.odd{
+    color: white;
+    text-align: center;
+    background-color: green;
+    height: 100px;
+    width: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+    transition: 2s;
+}
+
+.odd:hover{
+    transform: rotateY(-180deg) scale(.5);
+}
+
+#one{
+    color: white;
+    text-align: center;
+    background-color: purple;
+    transition: 1.5s;
+    opacity: .4;
+    height: 100px;
+    width: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 20px;
+}
+
+#one:hover{
+    opacity: 1;
+}
+
+#two{
+    color: white;
+    text-align: center;
+    background-color: rgb(138, 135, 1);
+    opacity: .6;
+    height: 100px;
+    width: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+margin-top: 20px;
+transition: 1s;
+}
+
+#two:hover{
+    transform: rotateZ(-60deg) scale(1.5);
+}
+
+#three{
+    color: white;
+    text-align: center;
+    background-color: pink;
+    height: 100px;
+    width: 100px;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+    margin-top: 20px;
+    transition: 1.5s;
+}
+
+#three:hover{
+    /* transform: skewX(20deg); */
+    transform: translate(50px) rotateZ(180deg);
+}
